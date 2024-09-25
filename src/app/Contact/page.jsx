@@ -30,6 +30,11 @@ export const ContactPage = () => {
       setAnimateOut(false);
       setShowNotification(true);
 
+      setNama("");
+      setEmail("");
+      setNoTelpon("");
+      setPesan("");
+
       setTimeout(() => {
         setAnimateOut(true);
       }, 3000);
