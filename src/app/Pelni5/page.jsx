@@ -25,8 +25,10 @@ export default function Home() {
 
   return (
     <>
+    <div className="bg-bgnew min-h-screen">
+
       <main className="max-w-xl mx-auto sm:p-16">
-        <div className="chek border-[2px] h-[35rem] border-slate-400 rounded-[1rem] shadow-md shadow-slate-600">
+        <div className="chek border-[2px] h-[35rem] border-slate-400 rounded-[1rem] shadow-md shadow-slate-600 bg-white">
           <div className="flex flex-col">
             <Image src="/kapal.png" alt="Kapal Gambar" width={250} height={250} objectFit="cover" className="w-full rounded-t-[1rem]" />
             <div className="border border-gray-100 bg-white p-6">
@@ -38,6 +40,7 @@ export default function Home() {
           </div>
         </div>
       </main> 
+    </div>
     </>
   );
 }

@@ -46,7 +46,7 @@ export const Page7 = () => {
   ];
 
   return (
-    <div className="page6 flex justify-center items-center min-h-[75vh] flex-col relative bg-[#D5DEE4]" >
+    <div className="page6 flex justify-center items-center min-h-[75vh] flex-col relative bg-[#DDE6ED]" >
       <p className=" absolute font-lexend font-black text-[200px] z-0 mb-[12rem] tracking-[15px] text-[#B8C8D3]">Bus</p>
       <div className="teks flex justify-center items-center font-jost font-medium me-[70rem] relative z-10 ms-[7rem] w-[50rem]">
         <p className="text-center mb-[3rem] text-[24px]">Yuk, Kelilingi Indonesia dengan bus</p>

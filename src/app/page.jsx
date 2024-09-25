@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <>
     <NavPage/>
-   <Pages2/>
    <Page3/>
    <Page4/>
    <Page5/>

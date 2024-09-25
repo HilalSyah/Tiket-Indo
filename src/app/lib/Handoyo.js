@@ -1,6 +1,6 @@
 export const productBus = {
     id: ~~(Math.random() * 100) + 1,
-    img: "/Background (7).png",
+    img: "/bus (1).png",
     tujuan: "Kudus-Magelang",
     name: "TiketBus",
     logoTiket: "Assets/Icons/batik-air-logo.png",

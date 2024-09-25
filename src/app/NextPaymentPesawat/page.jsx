@@ -24,8 +24,10 @@ export default function Home() {
 
   return (
     <>
+    <div className="bg-bgnew min-h-screen">
+
       <main className="max-w-xl mx-auto sm:p-16">
-        <div className="chek border-[2px] h-[35rem] border-slate-400 rounded-[1rem] shadow-md shadow-slate-600">
+        <div className="chek border-[2px] h-[35rem] border-slate-400 rounded-[1rem] shadow-md shadow-slate-600 bg-white">
           <div className="flex flex-col">
             <Image
               src="/bg-pesawat.png"
@@ -43,6 +45,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+    </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ import React from "react";
 export const Page4 = () => {
   return (
     <div className="merge">
-      <div className="page4 bg-[#D5DEE4] min-h-[120vh] bg-no-repeat bg-cover flex justify-center items-center font-lexend flex-col ">
+      <div className="page4 bg-[#DDE6ED] min-h-[120vh] bg-no-repeat bg-cover flex justify-center items-center font-lexend flex-col ">
         <div className="position mb-[9rem] items-center justify-center flex flex-col">
           <p>Ide liburan</p>
           <p className="text-2xl">Pantai indah yang bisa kamu kunjungi dengan keluarga/teman</p>
@@ -68,7 +68,7 @@ export const Page4 = () => {
           </div>
         </div>
       </div>
-      <div className="page5 min-h-[60vh] flex justify-center items-center flex-col font-lexend gap-[5rem] bg-[#DDE6ED]">
+      <div className="page5 min-h-[60vh] flex justify-center items-center flex-col font-lexend gap-[5rem] bg-[#D5DEE4]">
         <p className="text-2xl">Pilih Kendaraan Untuk Berpergian</p>
         <div className="logo-kendaraan flex justify-center items-center text-center gap-[5rem] mb-[3rem]">
           <div className="logo1 flex flex-col gap-5 w-[100px] h-[140px] border-[2px] border-[#9DB2BF] p-3 rounded-[8px] bg-[#9DB2BF] shadow-md shadow-[#526D82]">

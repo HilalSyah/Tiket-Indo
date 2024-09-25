@@ -1,7 +1,7 @@
 export const productPesawat = [
     {
       id: ~~(Math.random() * 100 ) + 1,
-      img: "Assets/Image/GambarWeb/jakarta.png",
+      img: "/pesawat (1).png",
       tujuan: "Yogyakarta-Jakarta",
       logoTiket: "Assets/Icons/batik-air-logo.png",
       harga: "679,990",
@@ -10,7 +10,7 @@ export const productPesawat = [
     },
     {
       id: ~~(Math.random() * 100 ) + 1,
-      img: "Assets/Image/GambarWeb/Background (2).png",
+      img: "/pesawat (1).png",
       tujuan: "Jakarta-Surabaya",
       logoTiket: "Assets/Icons/lion_logo.png",
       harga: "1,550,000",
@@ -19,7 +19,7 @@ export const productPesawat = [
     },
     {
       id: ~~(Math.random() * 100 ) + 1,
-      img: "Assets/Image/GambarWeb/Background (3).png",
+      img: "/pesawat (1).png",
       tujuan: "Jakarta-Bali",
       logoTiket: "Assets/Icons/garuda-logo.png",
       harga: "1,990,000",
@@ -28,7 +28,7 @@ export const productPesawat = [
     },
     {
       id: ~~(Math.random() * 100 ) + 1,
-      img: "Assets/Image/GambarWeb/Background (4).png",
+      img: "/pesawat (1).png",
       tujuan: "Semarang-Lombok",
       logoTiket: "Assets/Icons/citilink-logo.png",
       harga: "2,390,000",
@@ -37,7 +37,7 @@ export const productPesawat = [
     },
     {
       id: ~~(Math.random() * 100 ) + 1,
-      img: "Assets/Image/GambarWeb/Background (5).png",
+      img: "/pesawat (1).png",
       tujuan: "Jakarta-Pontianak",
       logoTiket: "Assets/Icons/wing.png",
       harga: "1,990,000",

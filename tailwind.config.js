@@ -31,6 +31,7 @@ module.exports = {
         toggleBg: "rgba(144, 138, 131, 0.38)",
         trasnparant: "rgba(221, 230, 237, 0.6)",
         bgInput: "rgba(221, 230, 237, 0.1)",
+        bgnew: "rgba(82, 109, 130, 1)",
       },
     },
   },

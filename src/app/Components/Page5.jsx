@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Page5 = () => {
   return (
-    <div className="Page5 min-h-screen bg-[#D5DEE4] flex items-center justify-between">
+    <div className="Page5 min-h-screen bg-[#DDE6ED] flex items-center justify-between">
       <div className=" absolute pesawat mt-10">
         <img src="/Assets/Image/GambarWeb/Pesawat.png" alt="" width={800} />
       </div>
