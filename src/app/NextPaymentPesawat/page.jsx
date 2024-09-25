@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { productPesawat } from "../lib/Default";
-import Checkout from "../components/Checkout";
 import { useEffect } from "react";
 import CheckoutDefaultP from "../Components/Defaultp";
 
