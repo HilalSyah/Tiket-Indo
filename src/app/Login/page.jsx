@@ -98,7 +98,7 @@ export const Login = () => {
                 </div>
               </div>
               <div className="p2 me-[2rem] mt-3">
-                <button className="text-[#007AFF] text-sm">Luppas Pasword?</button>
+                <button className="text-[#007AFF] text-sm">Luppa Password?</button>
               </div>
             </div>
 
