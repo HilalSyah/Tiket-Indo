@@ -75,7 +75,7 @@ export const ContactPage = () => {
   return (
     <div className="contact-page bg-bgContact min-h-screen bg-cover bg-no-repeat bg-center">
       <Navbar/>
-      <div className="posisi p-[5rem] ms-[20rem]">
+      <div className="posisi p-[5rem] ms-[15rem]">
         <div className="contact-use bg-trasnparant w-[850px] h-[500px] flex justify-center items-center rounded-[15px] flex-col">
           <p className="font-lexend text-4xl font-semibold">CONTACT US</p>
           <div className="nama">
