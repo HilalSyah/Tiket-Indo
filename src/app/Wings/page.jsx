@@ -2,9 +2,8 @@
 
 import Image from "next/image";
 import { productPesawat } from "../lib/Wings";
-import Checkout from "../components/Checkout";
 import { useEffect } from "react";
-import CheckoutPesawat4 from "../Components/CheckoutPesawat5";
+import CheckoutPesawat4 from "../components/CheckoutPesawat4";
 
 export default function Home() {
   useEffect(() => {
