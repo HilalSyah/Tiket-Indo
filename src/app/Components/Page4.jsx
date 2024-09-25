@@ -12,7 +12,7 @@ export const Page4 = () => {
             <div className="pantai1">
               <img className=" absolute" src="/Assets/Image/GambarWeb/4.png" alt="" />
               <p className="text-2xl relative mt-[13rem] ms-2 font-medium text-[#2C3E50]">Pantai Pink</p>
-              <p className="mt-7 text-[11.5px] font-light text-black">
+              <p className="mt-7 text-[11.5px] font-light text-[#2C3E50]">
                 Pulau Komodo, Kabupaten Manggarai Barat, <br />
                 Nusa Tenggara Timur
               </p>
@@ -27,8 +27,8 @@ export const Page4 = () => {
               <img className=" absolute" src="/Assets/Image/GambarWeb/Rectangle 39684.png" alt="" />
               <p className="text-2xl relative mt-[13rem] ms-2 font-medium text-[#2C3E50]">Pantai Derawan</p>
               <p className="mt-7 text-[11.5px] font-light text-[#2C3E50]">
-                Pulau Komodo, Kabupaten Manggarai Barat, <br />
-                Nusa Tenggara Timur
+                Kepulauan Derawan, Kabupaten Berau,
+                <br /> Kalimantan Timur
               </p>
               <div className="rating flex justify-between items-center mt-3">
                 <img className=" absolute" src="/Assets/Image/GambarWeb/Group 205.png" alt="" />
@@ -41,8 +41,7 @@ export const Page4 = () => {
               <img className=" absolute" src="/Assets/Image/GambarWeb/2.png" alt="" />
               <p className="text-2xl relative mt-[13rem] ms-2 font-medium text-[#2C3E50]">Pantai Ngurtafur</p>
               <p className="mt-7 text-[11.5px] font-light text-[#2C3E50]">
-                Pulau Komodo, Kabupaten Manggarai Barat, <br />
-                Nusa Tenggara Timur
+              Pulau Warbal, Kecamatan Kei Kecil, <br />Kabupaten Maluku Tenggara, Provinsi Maluku
               </p>
               <div className="rating flex justify-between items-center mt-3">
                 <img className=" absolute" src="/Assets/Image/GambarWeb/Group 205.png" alt="" />
@@ -55,8 +54,7 @@ export const Page4 = () => {
               <img className=" absolute" src="/Assets/Image/GambarWeb/3.png" alt="" />
               <p className="text-2xl relative mt-[13rem] ms-2 font-medium text-[#2C3E50]">Pantai Ora</p>
               <p className="mt-7 text-[11.5px] font-light text-[#2C3E50]">
-                Pulau Komodo, Kabupaten Manggarai Barat, <br />
-                Nusa Tenggara Timur
+              Pulau Sumba, Nusa Tenggara Timur, <br />Indonesia.
               </p>
               <div className="rating flex justify-between items-center mt-3">
                 <img className=" absolute" src="/Assets/Image/GambarWeb/Group 205.png" alt="" />
@@ -74,25 +72,25 @@ export const Page4 = () => {
           <div className="logo1 flex flex-col gap-5 w-[100px] h-[140px] border-[2px] border-[#9DB2BF] p-3 rounded-[8px] bg-[#9DB2BF] shadow-md shadow-[#526D82]">
             <img src="/Assets/Icons/Vector (4).png" alt="" className="w-auto h-auto" />
             <Link href="/Kereta_Tiket">
-            <button className=" underline-offset-1">Kereta</button>
+              <button className=" underline-offset-1">Kereta</button>
             </Link>
           </div>
           <div className="logo1 flex flex-col gap-5 w-[100px] h-[140px] border-[2px] border-[#9DB2BF] p-3 rounded-[8px] bg-[#9DB2BF] shadow-md shadow-[#526D82]">
             <img src="/Assets/Icons/Vector (5).png" alt="" className="w-auto h-auto" />
             <Link href="/Bus_Tiket">
-            <button className=" underline-offset-1">Bus</button>
+              <button className=" underline-offset-1">Bus</button>
             </Link>
           </div>
           <div className="logo1 flex flex-col gap-5 w-[100px] h-[140px] border-[2px] border-[#9DB2BF] p-3 rounded-[8px] bg-[#9DB2BF] shadow-md shadow-[#526D82]">
             <img src="/Assets/Icons/Vector (6).png" alt="" className="w-auto h-auto mt-7" />
             <Link href="/Pesawat_Tiket">
-            <button className=" underline-offset-1 mt-3">Pesawat</button>
+              <button className=" underline-offset-1 mt-3">Pesawat</button>
             </Link>
           </div>
           <div className="logo1 flex flex-col gap-5 w-[100px] h-[140px] border-[2px] border-[#9DB2BF] p-3 rounded-[8px] bg-[#9DB2BF] shadow-md shadow-[#526D82]">
             <img src="/Assets/Icons/Vector (7).png" alt="" className="w-auto h-auto mt-1" />
             <Link href="/Kapal_Tiket">
-            <button className=" underline-offset-1">Kapal</button>
+              <button className=" underline-offset-1">Kapal</button>
             </Link>
           </div>
         </div>

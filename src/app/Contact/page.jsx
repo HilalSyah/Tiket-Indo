@@ -70,7 +70,7 @@ export const ContactPage = () => {
   return (
     <div className="contact-page bg-bgContact min-h-screen bg-cover bg-no-repeat bg-center">
       <Navbar/>
-      <div className="posisi p-[6rem] ms-[20rem]">
+      <div className="posisi p-[5rem] ms-[20rem]">
         <div className="contact-use bg-trasnparant w-[850px] h-[500px] flex justify-center items-center rounded-[15px] flex-col">
           <p className="font-lexend text-4xl font-semibold">CONTACT US</p>
           <div className="nama">
@@ -89,7 +89,7 @@ export const ContactPage = () => {
           </div>
           <div className="pesan">
 
-          <input className="w-[45rem] h-[9rem] rounded-[10px] pb-[5.5rem] ps-[1rem] pt-2 outline-none border-none mt-[1.5rem] justify-start items-start text-left text-sm" type="Pesan anda*" placeholder="Nama*" value={pesan}  onChange={(e)=> handleInputChange(e, "pesan")} />
+          <input className="w-[45rem] h-[9rem] rounded-[10px] pb-[5.5rem] ps-[1rem] pt-2 outline-none border-none mt-[1.5rem] justify-start items-start text-left text-sm" type="Pesan anda*" placeholder="Pesan Anda*" value={pesan}  onChange={(e)=> handleInputChange(e, "pesan")} />
           {errors.pesan && <p className="text-red-500 ms-2">{errors.pesan}</p>}
           </div>
           <button onClick={handleSendClick} className="font-lexend bg-[#27374D] w-[45rem] h-[2.5rem] text-white text-1xl rounded-[10px] mt-5 ">Kirim</button>
